@@ -13,12 +13,14 @@ function CTA() {
         </Tag>
 
         <h2 className="font-['Playfair_Display',serif] text-[clamp(1.8rem,3vw,2.6rem)] max-w-130 mx-auto mb-4 text-[#3D2F2F]">
-          Dê o primeiro passo para transformar a aprendizagem do seu filho
+          Avalie as Dificuldades de Aprendizagem do seu Filho - Agende uma
+          Consulta
         </h2>
 
         <p className="text-[#7A6060] mb-8">
-          Entre em contato pelo WhatsApp e tire todas as suas dúvidas — sem
-          compromisso.
+          Entre em contato pelo WhatsApp com a psicopedagoga clínica Giovana
+          Freire para avaliar possíveis dificuldades, dislexia, TDAH ou outras
+          questões de aprendizagem — sem compromisso.
         </p>
 
         <a

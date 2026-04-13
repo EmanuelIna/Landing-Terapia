@@ -38,18 +38,18 @@ const Hero = () => {
         <h1
           className={`${animClass("delay-150")} font-['Playfair_Display',serif] text-[clamp(2.2rem,4vw,3.6rem)] leading-[1.15] mb-6 text-[#3D2F2F]`}
         >
-          Aprender pode ser{" "}
+          Psicopedagogia Clínica para Superar{" "}
           <em className="text-[#c47e8a] italic font-['Playfair_Display']">
-            leve
-          </em>{" "}
-          e cheio de possibilidades
+            Dificuldades de Aprendizagem
+          </em>
         </h1>
 
         <p
           className={`${animClass("delay-300")} text-[1.05rem] text-[#7A6060] leading-relaxed max-w-120 mb-10`}
         >
-          Apoio especializado para crianças que encontram dificuldades no
-          aprendizado — com acolhimento, ciência e muito cuidado.
+          Avaliação e intervenção psicopedagógica especializada para dislexia,
+          TDAH, dificuldades de leitura, escrita e matemática. Atendimento
+          presencial e online em Campo Grande - MS.
         </p>
 
         <a
@@ -69,7 +69,8 @@ const Hero = () => {
           <img
             className="w-full h-full object-cover scale-125 -translate-x-4 -translate-y-6"
             src={Psico}
-            alt="Giovanna Oliveira"
+            alt="Giovana Freire - Psicopedagoga especialista em avaliação psicopedagógica clínica"
+            title="Psicopedagoga especialista em dificuldades de aprendizagem"
           />
         </div>
         {[

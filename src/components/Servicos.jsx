@@ -11,12 +11,13 @@ const Servicos = () => {
         </Tag>
 
         <h2 className="font-['Playfair_Display',serif] text-[clamp(1.8rem,3vw,2.6rem)] mb-3 text-[#3D2F2F]">
-          O que eu posso ajudar
+          Avaliação e Intervenção para Dificuldades de Aprendizagem
         </h2>
 
         <p className="text-[#7A6060] max-w-130 leading-relaxed">
-          Atendimento especializado para diversas necessidades de aprendizagem,
-          com base científica e olhar humanizado.
+          Atendimento psicopedagógico especializado para dislexia, TDAH,
+          dificuldades de leitura, escrita, matemática e ansiedade escolar, com
+          base científica e olhar humanizado.
         </p>
       </Reveal>
 

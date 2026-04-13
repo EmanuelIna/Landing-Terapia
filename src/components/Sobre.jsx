@@ -20,13 +20,13 @@ const Sobre = () => {
           </Tag>
 
           <h2 className="font-['Playfair_Display',serif] text-[clamp(1.8rem,3vw,2.6rem)] mb-[1.1rem] text-[#3D2F2F]">
-            Olá, sou a Giovanna Freire
+            Olá, sou a Giovana Freire - Psicopedagoga Clínica
           </h2>
 
           {[
-            "Sou psicopedagoga apaixonada por entender como cada criança aprende de forma única. Acredito que por trás de toda dificuldade existe um potencial esperando para ser descoberto.",
-            "Com uma abordagem acolhedora e baseada em evidências científicas, trabalho junto à criança e sua família para transformar o processo de aprendizagem em uma experiência positiva e significativa.",
-            "Atendo presencialmente e online, adaptando o formato às necessidades de cada família.",
+            "Sou psicopedagoga clínica especializada em avaliação psicopedagógica e intervenção para crianças com dificuldades de aprendizagem. Acredito que por trás de toda dificuldade de leitura, escrita, matemática ou TDAH existe um potencial esperando para ser descoberto.",
+            "Com uma abordagem acolhedora e baseada em evidências neuropsicopedagógicas, trabalho junto à criança e sua família para transformar o processo de aprendizagem, superando desafios como dislexia e discalculia, em uma experiência positiva e significativa.",
+            "Atendo presencialmente em Campo Grande - MS e online, adaptando o formato e as estratégias de atendimento às necessidades específicas de cada família. Realizo avaliação neuropsicopedagógica completa e acompanhamento contínuo.",
           ].map((p, i) => (
             <p
               key={i}

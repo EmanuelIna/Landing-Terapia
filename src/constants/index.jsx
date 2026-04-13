@@ -17,26 +17,26 @@ export const steps = [
   {
     n: "01",
     icon: "💬",
-    title: "Primeiro contato",
-    desc: "Entre em contato pelo WhatsApp. Conversamos sobre as dificuldades observadas e tiramos todas as suas dúvidas.",
+    title: "Primeiro contato e avaliação inicial",
+    desc: "Entre em contato pelo WhatsApp. Realizamos uma conversa inicial para entender as dificuldades de aprendizagem e fazemos uma avaliação psicopedagógica completa.",
   },
   {
     n: "02",
     icon: "🔍",
-    title: "Avaliação inicial",
-    desc: "Realizamos uma avaliação psicopedagógica completa para entender o perfil de aprendizagem da criança.",
+    title: "Análise psicopedagógica detalhada",
+    desc: "Avaliação neuropsicopedagógica completa para identificar o perfil de aprendizagem, dificuldades específicas e potenciais da criança.",
   },
   {
     n: "03",
     icon: "📋",
-    title: "Plano personalizado",
-    desc: "Com base na avaliação, criamos um plano de intervenção único, pensado especificamente para cada criança.",
+    title: "Plano de intervenção personalizado",
+    desc: "Com base na avaliação, criamos um plano de intervenção único baseado em ciências cognitivas para superar dificuldades de leitura, escrita, matemática ou TDAH.",
   },
   {
     n: "04",
     icon: "🌱",
-    title: "Acompanhamento",
-    desc: "Sessões regulares e acompanhamento próximo com a família para garantir evolução contínua e saudável.",
+    title: "Acompanhamento e evolução contínua",
+    desc: "Sessões regulares presenciais ou online com acompanhamento da família para garantir progresso na aprendizagem e bem-estar emocional da criança.",
   },
 ];
 
@@ -48,32 +48,32 @@ export const servicos = [
   {
     icon: "📖",
     title: "Dificuldades de Leitura e Escrita",
-    desc: "Avaliação e intervenção para crianças com dificuldades na alfabetização, leitura e produção de texto.",
+    desc: "Avaliação psicopedagógica e intervenção especializada para crianças com dificuldades na alfabetização, leitura fluída, escrita, compreensão de texto e produção de conteúdo.",
   },
   {
     icon: "🔢",
     title: "Dificuldades em Matemática",
-    desc: "Apoio para crianças com dificuldades no raciocínio lógico-matemático e compreensão numérica.",
+    desc: "Apoio especializado para crianças com dificuldades no raciocínio lógico-matemático, cálculo, compreensão numérica e resolução de problemas.",
   },
   {
     icon: "🧩",
     title: "Dislexia e Discalculia",
-    desc: "Identificação e acompanhamento de transtornos específicos de aprendizagem com estratégias eficazes.",
+    desc: "Identificação, avaliação diagnóstica diferencial e acompanhamento de transtornos específicos de aprendizagem com estratégias baseadas em neurociências.",
   },
   {
     icon: "🎯",
-    title: "TDAH e Atenção",
-    desc: "Suporte para crianças com dificuldades de concentração, impulsividade e organização do aprendizado.",
+    title: "TDAH e Dificuldades de Atenção",
+    desc: "Suporte e intervenção para crianças com TDAH, dificuldades de concentração, impulsividade, organização do aprendizado e execução de tarefas.",
   },
   {
     icon: "😰",
     title: "Ansiedade Escolar",
-    desc: "Trabalho com bloqueios emocionais que interferem no desempenho e bem-estar na escola.",
+    desc: "Trabalho com bloqueios emocionais, fobia escolar, medo de avaliações e ansiedade que interferem no desempenho e bem-estar emocional da criança na escola.",
   },
   {
     icon: "👨‍👩‍👧",
     title: "Orientação para Pais",
-    desc: "Suporte e estratégias para que a família possa contribuir no processo de aprendizagem em casa.",
+    desc: "Suporte, estratégias e orientação para que a família possa contribuir efetivamente no processo de aprendizagem em casa e fortalecer a relação com a escola.",
   },
 ];
 

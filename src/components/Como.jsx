@@ -11,12 +11,13 @@ const Como = () => {
         </Tag>
 
         <h2 className="font-['Playfair_Display',serif] text-[clamp(1.8rem,3vw,2.6rem)] mb-3 text-[#3D2F2F]">
-          O caminho até o atendimento
+          Processo Completo de Avaliação Psicopedagógica
         </h2>
 
         <p className="text-[#7A6060] max-w-130 leading-relaxed">
-          Um processo pensado com cuidado para que você e seu filho(a) se sintam
-          seguros em cada etapa.
+          Um processo de atendimento psicopedagógico pensado com cuidado, desde
+          a avaliação inicial até o plano de intervenção, para que você e seu
+          filho(a) se sintam seguros em cada etapa.
         </p>
       </Reveal>
 
