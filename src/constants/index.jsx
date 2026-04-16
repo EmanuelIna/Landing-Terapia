@@ -36,7 +36,7 @@ export const steps = [
     n: "04",
     icon: "🌱",
     title: "Acompanhamento e evolução contínua",
-    desc: "Sessões regulares presenciais ou online com acompanhamento da família para garantir progresso na aprendizagem e bem-estar emocional da criança.",
+    desc: "Sessões regulares presenciais com acompanhamento da família para garantir progresso na aprendizagem e bem-estar emocional da criança.",
   },
 ];
 

@@ -26,7 +26,7 @@ const Sobre = () => {
           {[
             "Sou psicopedagoga clínica especializada em avaliação psicopedagógica e intervenção para crianças com dificuldades de aprendizagem. Acredito que por trás de toda dificuldade de leitura, escrita, matemática ou TDAH existe um potencial esperando para ser descoberto.",
             "Com uma abordagem acolhedora e baseada em evidências neuropsicopedagógicas, trabalho junto à criança e sua família para transformar o processo de aprendizagem, superando desafios como dislexia e discalculia, em uma experiência positiva e significativa.",
-            "Atendo presencialmente em Campo Grande - MS e online, adaptando o formato e as estratégias de atendimento às necessidades específicas de cada família. Realizo avaliação neuropsicopedagógica completa e acompanhamento contínuo.",
+            "Atendo presencialmente em Campo Grande - MS, adaptando o formato e as estratégias de atendimento às necessidades específicas de cada família. Realizo avaliação neuropsicopedagógica completa e acompanhamento contínuo.",
           ].map((p, i) => (
             <p
               key={i}
