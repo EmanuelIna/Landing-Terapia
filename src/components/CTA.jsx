@@ -1,10 +1,8 @@
 import Reveal from "./Reveal";
 import { Tag } from "../constants";
+import { WA_LINK } from "../constants";
 
 function CTA() {
-  const WA_NUMBER = "67991207114";
-  const WA_LINK = `https://wa.me/${WA_NUMBER}`;
-
   return (
     <section className="py-24 px-[6vw] bg-white text-center">
       <Reveal>

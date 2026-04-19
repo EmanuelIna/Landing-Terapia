@@ -40,7 +40,7 @@ export const steps = [
   },
 ];
 
-export const WA_NUMBER = "67991207114";
+export const WA_NUMBER = "67991042727";
 
 export const WA_LINK = `https://wa.me/${WA_NUMBER}`;
 

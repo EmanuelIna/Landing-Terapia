@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="relative">
         <div className={animClass("delay-0")}>
           <span className="inline-block bg-[#F2C4CE] text-[#8a3d4f] text-[0.75rem] font-semibold tracking-widest uppercase px-4 py-1.5 rounded-full mb-6">
-            ✨ Psicopedagogia Clínica e Institucional
+            <h1>✨ Psicopedagogia Clínica e Institucional</h1>
           </span>
         </div>
 
