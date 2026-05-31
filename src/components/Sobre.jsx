@@ -20,7 +20,7 @@ const Sobre = () => {
           </Tag>
 
           <h2 className="font-['Playfair_Display',serif] text-[clamp(1.8rem,3vw,2.6rem)] mb-[1.1rem] text-[#3D2F2F]">
-            Olá, sou a Giovana Freire - Psicopedagoga Clínica
+            Olá, sou a Giovanna Freire - Psicopedagoga Clínica
           </h2>
 
           {[

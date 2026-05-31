@@ -69,7 +69,7 @@ const Hero = () => {
           <img
             className="w-full h-full object-cover scale-125 -translate-x-4 -translate-y-6"
             src={Psico}
-            alt="Giovana Freire - Psicopedagoga especialista em avaliação psicopedagógica clínica"
+            alt="Giovanna Freire - Psicopedagoga especialista em avaliação psicopedagógica clínica"
             title="Psicopedagoga especialista em dificuldades de aprendizagem"
           />
         </div>
