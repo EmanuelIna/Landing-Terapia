@@ -51,4 +51,4 @@ O portfólio de Emanuel integra a mesma implementação em `/projetos/giovanna-f
 
 O projeto foi migrado de Vite/JS para Next.js/TypeScript conforme as diretrizes do workspace. A foto e os contatos foram preservados; o código anterior continua no histórico Git.
 
-Na Vercel, use o preset **Next.js** e deixe o diretório de saída no padrão do framework. Remova uma eventual configuração manual de saída `dist` e o comando Vite nas configurações do projeto antes de publicar esta versão. A atualização foi preparada em branch para revisão, sem disparar uma alteração intencional na produção de `main`.
+O arquivo `vercel.json` define o preset **Next.js**, instalação com `npm ci`, build com `npm run build` e saída `.next`, sobrescrevendo as configurações de build do projeto Vite anterior. A atualização foi preparada na branch `secondary` para revisão, sem alterar a produção de `main`. Os builds locais passaram; acompanhe o resultado da prévia automática no pull request antes de mesclar.
