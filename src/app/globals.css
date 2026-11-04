@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme inline { --color-primary: var(--theme-primary); --color-secondary: var(--theme-secondary); --color-accent: var(--theme-accent); }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+body { margin: 0; background: #faf6ee; color: #3b3b47; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

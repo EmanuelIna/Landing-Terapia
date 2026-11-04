@@ -1,16 +1,54 @@
-# React + Vite
+# Giovanna Freire — Aprendizagem com escuta e afeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page de psicopedagogia em Next.js App Router, React, TypeScript estrito, Tailwind CSS, Lucide e Radix Accordion.
 
-Currently, two official plugins are available:
+## Identidade visual
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A identidade fornecida para este projeto é aplicada exclusivamente à landing:
 
-## React Compiler
+- Creme `#FAF6EE`: fundo principal.
+- Grafite `#3B3B47`: títulos e textos.
+- Verde Mente `#8DB36A`: ícones e destaques.
+- Rosa Afeto `#E0607A`: detalhes pontuais.
+- Verde-água `#6FA89C`: todos os CTAs, com texto escuro para legibilidade.
+- Areia `#E8D3BD`: apoio e retratos.
+- Fraunces nos títulos e Nunito nos textos, servidas localmente em WOFF2 com `font-display: swap`. Licenças OFL incluídas em `public/therapy/fonts`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Assinatura tipográfica com ícone de apoio; o documento de referência descreve uma logo, mas não inclui o arquivo gráfico original. A foto é a mesma do repositório anterior, preservada em `public/therapy/giovanna-freire.png`.
 
-## Expanding the ESLint configuration
+## Executar e validar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```powershell
+npm.cmd ci
+npm.cmd run dev
+npm.cmd run typecheck
+npm.cmd run build
+npm.cmd start
+```
+
+Prévia padrão: http://127.0.0.1:3000. Build e desenvolvimento usam Webpack por compatibilidade com o ambiente Windows de desenvolvimento. A rota inicial é pré-renderizada.
+
+## Conteúdo e contatos
+
+Personalize `src/components/therapy/config.ts`:
+
+- WhatsApp: `5567991042727`, preservado do repositório e normalizado com DDI 55.
+- Instagram: `https://www.instagram.com/psico.giovannafreire/`, informado pelo responsável.
+- Serviços, etapas, FAQ, imagem e avaliações.
+
+O site não coleta dados clínicos, não envia formulários e não carrega widgets externos. Os CTAs abrem uma conversa no WhatsApp; a mensagem só é enviada pelo visitante. Não há promessas de resultado, notas do Google ou depoimentos inventados. O componente aceita avaliações reais autorizadas em `therapy.reviews`; enquanto não forem fornecidas, apresenta os princípios de parceria entre família, escola e criança.
+
+## Componentes e integração com o portfólio
+
+- `therapy-page.tsx`: Hero, serviços, etapas, sobre, confiança, contato e rodapé.
+- `therapy-header.tsx`: marca, navegação e menu móvel acessível.
+- `therapy-faq.tsx`: perguntas frequentes com Radix.
+- `therapy.module.css`: estilos e tokens isolados; nenhuma dependência dos estilos visuais do portfólio.
+
+O portfólio de Emanuel integra a mesma implementação em `/projetos/giovanna-freire`, com um link de retorno no rodapé. No workspace do portfólio, `node scripts/sync-therapy.mjs` sincroniza os componentes e os recursos para este checkout. A prévia integrada usa `noindex` para evitar duplicar a página profissional nos buscadores; a versão independente permite indexação.
+
+## Migração e publicação
+
+O projeto foi migrado de Vite/JS para Next.js/TypeScript conforme as diretrizes do workspace. A foto e os contatos foram preservados; o código anterior continua no histórico Git.
+
+O arquivo `vercel.json` define o preset **Next.js**, instalação com `npm ci`, build com `npm run build` e saída `.next`, sobrescrevendo as configurações de build do projeto Vite anterior. A atualização foi preparada na branch `secondary` para revisão, sem alterar a produção de `main`. Os builds locais passaram; acompanhe o resultado da prévia automática no pull request antes de mesclar.
